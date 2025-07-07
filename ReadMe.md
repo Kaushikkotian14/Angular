@@ -28,12 +28,13 @@
 # Angular Material (need to install for each project): 
 - ng add @angular/material
 
-# To change port no.: ng serve --port 4500
+# To change port no.: 
+- ng serve --port 4500
 
 # MongoDB:
- 1.npm init -y
- 2.npm install express mongoose cors body-parser
- 3.node server.js(filename of mongodb server)
+- 1.npm init -y
+- 2.npm install express mongoose cors body-parser
+- 3.node server.js(filename of mongodb server)
 
 # ng Store (need to install for each project): 
 - npm install @ngrx/store@16 @ngrx/effects@16 @ngrx/store-devtools@16
