@@ -35,11 +35,12 @@
  2.npm install express mongoose cors body-parser
  3.node server.js(filename of mongodb server)
 
-# ng Store (need to install for each project): npm install @ngrx/store@16 @ngrx/effects@16 @ngrx/store-devtools@16
+# ng Store (need to install for each project): 
+- npm install @ngrx/store@16 @ngrx/effects@16 @ngrx/store-devtools@16
 
 # Http interceptors:
 - type nul > error-interceptor.ts
-  showing error but create file 
+  (showing error but create file) 
 
 # For Angular 16(Standalone):
 - ng new Foldername --standalone
