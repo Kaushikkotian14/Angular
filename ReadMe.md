@@ -1,12 +1,12 @@
 # Steps to create Angular:
  - 1.md 11-Angular
-  2.cd 11-Angular
-  3.npm install -g @angular/cli@16
-  4. ng new file_name
-    a.Routing
-    b.CSS
-  5.cd file_name
-  6.To start: ng serve
+ - 2.cd 11-Angular
+ - 3.npm install -g @angular/cli@16
+ - 4. ng new file_name
+   - a.Routing
+   - b.CSS
+ - 5.cd file_name
+ - 6.To start: ng serve
 
 # To generate new components:
 - ng generate component component_name
