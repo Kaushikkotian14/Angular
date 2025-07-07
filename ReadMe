@@ -1,0 +1,42 @@
+Steps to create Angular:
+md 11-Angularcd 11-Angular
+npm install -g @angular/cli@16
+ng new file_name
+  1.Routing
+  3.CSS
+cd file_name
+To start: ng serve
+
+To generate new components: ng generate component component_name
+To create service file:  ng generate service service_name
+npm install bootstrap
+
+Delete routing.module.ts : ng generate module app-routing --module app --flat
+
+To install Json server in folder: npm install -g json-server
+To run : json-server --watch db.json --port 3000
+
+Angular Material (need to install for each project): ng add @angular/material
+
+To change port no.: ng serve --port 4500
+
+MongoDB:
+ 1.npm init -y
+ 2.npm install express mongoose cors body-parser
+ 3.node server.js(filename of mongodb server)
+
+ng Store (need to install for each project): npm install @ngrx/store@16 @ngrx/effects@16 @ngrx/store-devtools
+@16
+
+Http interceptors: type nul > error-interceptor.ts
+  showing error but create file 
+
+For Angular 16(Standalone): ng new Foldername --standalone
+
+MSAL(Microsoft Authentication Library):npm install @azure/msal-browser @azure/msal-angular
+
+Testing:ng test 
+        ng test --code-coverage
+Karma - test runner
+Jasmin- Angular testing framework
+TestBed - Angular testing utility
