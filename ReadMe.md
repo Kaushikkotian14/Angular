@@ -49,7 +49,7 @@
 # MSAL(Microsoft Authentication Library):
 - npm install @azure/msal-browser @azure/msal-angular
 
-#Testing:ng test 
+# Testing:ng test 
         # ng test --code-coverage
         - Karma - test runner
         - Jasmin- Angular testing framework
